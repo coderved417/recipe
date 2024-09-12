@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './Home'
+// import Home from './Home'
 import About from './About'
 import PNF from './PNF'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -11,9 +11,10 @@ import Navbar from './components/Navbar'
 import Expense from './pages/Expense'
 import ConditionalRendri from './pages/ConditionalRendri'
 import EffectShow from './pages/EffectShow'
-import TrailApi from './components/TrailApi'
-import Recipe from './pages/Recipe'
+import TrailApi from './pages/TrailApi'
+
 import ViewRecipe from './pages/ViewRecipe'
+import Recipe from './pages/Recipe'
 
 export default function App() {
   return (
@@ -22,7 +23,7 @@ export default function App() {
       <Navbar/>
       <Routes>
 
-        <Route path='/Home'element={<Home/>}/>
+        <Route path='/'element={<Recipe/>}/>
         <Route path='/About'element={<About/>}/>
         <Route path='/*'element={<PNF/>}/>
         <Route path='/Counter'element={<Counter/>}/>
@@ -30,10 +31,10 @@ export default function App() {
           <Route path='/Conditional' element={<ConditionalRendri/>}/>
           <Route path='/Effect' element={<EffectShow/>}/>
           <Route path='/Trail' element={<TrailApi/>}/>
-          <Route path='/Recipe' element={<Recipe/>}/>
+         
 
           <Route path='/View' element={<ViewRecipe/>}/>
-
+          {/* <Route path='/Recipe' element={<Recipe/>}/> */}
 
 
       </Routes>
