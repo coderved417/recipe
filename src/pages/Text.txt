@@ -1,0 +1,5 @@
+https://api.edamam.com/search?q=biriyani_id=8673549e&app_key=0855b03ba85f1b947c6e32ef334d4fe9
+
+Application ID=8673549e
+
+Application key=0855b03ba85f1b947c6e32ef334d4fe9

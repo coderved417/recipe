@@ -1,0 +1,13 @@
+.expenseForm{
+    position: relative;
+}
+.closeBtn{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
